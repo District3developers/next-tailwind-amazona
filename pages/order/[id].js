@@ -255,12 +255,12 @@ function OrderScreen() {
                     <div>${itemsPrice}</div>
                   </div>
                 </li>{' '}
-                <li>
+                {/* <li>
                   <div className="mb-2 flex justify-between">
                     <div>Tax</div>
                     <div>${taxPrice}</div>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className="mb-2 flex justify-between">
                     <div>Shipping</div>

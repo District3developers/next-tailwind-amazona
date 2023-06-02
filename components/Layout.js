@@ -38,8 +38,8 @@ export default function Layout({ title, children }) {
   return (
     <>
       <Head>
-        <title>{title ? title + ' - Amazona' : 'Amazona'}</title>
-        <meta name="description" content="Ecommerce Website" />
+        <title>{title ? title + ' - Funkarah' : 'dotpk'}</title>
+        <meta name="description" content="Ecommerce Store Online" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -131,7 +131,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex h-10 justify-center items-center shadow-inner">
-          <p>Copyright © 2022 Amazona</p>
+          <p>Copyright © 2022 Funkarah.pk</p>
         </footer>
       </div>
     </>
